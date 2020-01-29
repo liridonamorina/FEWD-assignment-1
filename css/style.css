@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100vh;
+  width: 100 vw;
+  margin: 0;
+  padding: 0;
+}
+
+.hr-1 {
+  border: 3px solid black;
+  margin-bottom: 20px;
+}
+.container {
+  position: relative;
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #dcdcdc;
+  padding: 20px;
+}
+.container .container-wrap {
+  padding: 0 100px;
+}
+.title {
+  text-align: center;
+}
+.title a {
+  color: black;
+}
+#experience {
+  text-align: left;
+}
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.imgBox {
+  display: inline-block;
+  vertical-align: top;
+  width: 46%;
+  margin: 20px 20px 0;
+}
+.imgBox img {
+  max-width: 100%;
+  width: 50%;
+}
+.content {
+  display: inline-block;
+  width: 46%;
+}
+.media {
+  margin-left: 30px;
+  font-weight: bold;
+}
+.media a {
+  color: black;
+}
